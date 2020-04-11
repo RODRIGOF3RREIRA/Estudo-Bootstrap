@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">
+        <title>grid</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style type="text/css">
+        div.bg{
+            background: #563d7c;
+            height: 50px;
+            border: 1px solid #fff;
+        }
+
+        div.bg1{
+            background: #33fd00;
+            height: 50px;
+            border: 1px solid #fff;
+        }
+        </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col bg"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+            <div class="row">
+                <div class="col bg"></div>
+                <div class="col bg"></div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-1 bg"></div>
+                <div class="col-4 bg"></div>
+                <div class="col bg"></div>
+            </div>
+        </div>
+
+        <!--Alinhar grid ao centro-->
+
+        <div class="row justify-content-center">
+                
+                    <div class="col-1 bg"></div>
+            </div>
+        <!--########################-->    
+        
+        <!--alinhar grid esqueda -->
+
+        <div class="row justify-content-left">
+                
+                <div class="col-1 bg"></div>
+        </div>
+        <!--########################-->
+
+        <!--alinhar grid direita-->
+        <div class="row justify-content-end">
+                
+                <div class="col-1 bg"></div>
+        </div>
+        <!--########################-->
+
+        <!-- empilhar em dispositivos pequenos-->
+        
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 bg1"></div>
+            <div class="col-lg-4 col-sm-12 bg1"></div>
+            <div class="col-lg-4 col-sm-12 bg1"></div>
+        </div>
+        <!--########################-->
+
+
+        <!-- ordem-->
+        <div class="row">
+                <div class="col bg order-3"><h1> asdas1</h1></div>
+                    
+                <div class="col bg order-2"><h1> asdas2</h1></div>
+                    
+                <div class="col bg order-1"><h1> asdas3</h1></div>
+                
+            </div>
+        
+
+
+
+        
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
